@@ -34,7 +34,7 @@ count = 0
 
 options = Options()
 service = Service()
-options.add_argument(r"--user-data-dir=C:\\Users\\5523\\AppData\\Local\\Google\\Chrome\\User Data\\")
+options.add_argument(r"--user-data-dir=/root/.config/google-chrome/Profile 6")
 driver = webdriver.Chrome(service=service, options=options)
 driver.get("https://web.whatsapp.com")
 
