@@ -40,7 +40,7 @@ profile = ("/root/.mozilla/firefox/812m1v6m.default-release")
 
 # Use the above folder as custom profile
 opts = Options()
-opts.binary_location = r"C:\\Users\\5523\\AppData\\Local\\Mozilla Firefox\\firefox.exe"
+opts.binary_location = r"/usr/bin/firefox"
 service = Service(log_output = "geckodriver.log")
 opts.add_argument("-profile")
 opts.add_argument(profile)
