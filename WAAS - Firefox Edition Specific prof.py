@@ -36,7 +36,7 @@ excel_data = pandas.read_excel('Recipients data.xlsx', sheet_name='Recipients')
 count = 0
 
 # Custom profile folder to keep the minidump files
-profile = ("/root/.mozilla/firefox/812m1v6m.default-release")
+profile = ("/root/.mozilla/firefox/1dpbs1al.default-release")
 
 # Use the above folder as custom profile
 opts = Options()
