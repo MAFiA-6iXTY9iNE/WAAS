@@ -37,7 +37,7 @@ excel_data = pandas.read_excel('Recipients data.xlsx', sheet_name='Recipients')
 count = 0
 service =Service()
 opts = Options()
-opts.binary_location = r"C:\\Users\\5523\\AppData\\Local\\Mozilla Firefox\\firefox.exe"
+opts.binary_location = r"/usr/bin/firefox"
 service = Service(log_output = "geckodriver.log")
 driver = webdriver.Firefox(options=opts, service=service)
 driver.get('https://web.whatsapp.com')
